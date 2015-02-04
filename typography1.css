@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,300);
+body {
+	font-size:16px;	
+}
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+h1 {
+	padding: 5px 0 0 10px;
+	line-height: 120%;
+	font-size: 1.75em;
+	font-weight: 300;
+}
+h2 {
+	font-weight: 700;
+	font-size: 12.5em;
+	line-height: 92%;
+}
+h3 {
+	padding: 5px 10px 0;
+	line-height: 130%;
+	font-weight: 300;
+	position: relative;
+	font-size: 1.25em;
+}
+h3 strong {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-size: 2.0em;
+	line-height: 113%;
+	font-weight: 700;
+}
+.wf_container {
+	max-width: 920px;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+}
+.purple { color:#4b0082; }
+
+/* responsive text */
+@media all and (max-width: 919px) {
+body {
+	font-size:15px;
+}
+}
+@media all and (max-width: 819px) {
+body {
+	font-size:14px;
+}
+}
+@media all and (max-width: 769px) {
+body {
+	font-size:13px;
+}
+}
+@media all and (max-width: 739px) {
+body {
+	font-size:12px;
+}
+}
+@media all and (max-width: 699px) {
+body {
+	font-size:11px;
+}
+}
+@media all and (max-width: 669px) {
+body {
+	font-size:10px;
+}
+}
+@media all and (max-width: 639px) {
+body {
+	font-size:9px;
+}
+}
+@media all and (max-width: 599px) {
+body {
+	font-size:8px;
+}
+}
+@media all and (max-width: 480px) {
+body {
+	font-size:7px;
+}
+h1 { font-size: 28px; }
+h3 strong { font-size: 28px; }
+h3 { font-size: 20px; }
+}
+@media all and (max-width: 320px) {
+body {
+	font-size:6px;
+}
+}

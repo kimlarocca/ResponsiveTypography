@@ -1,0 +1,118 @@
+/**
+* Wicked Framework - custom build
+* ----------------- 
+* Copyright 2014 KimLaRocca.com
+* Licensed under MIT (https://github.com/kimlarocca/WickedFramework/blob/master/LICENSE)
+**/
+.wf_container {
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+	color: #333;
+	text-rendering: optimizeLegibility;
+}
+.wf_container a, .wf_container a:visited, .wf_container a:active {
+	text-decoration: none;
+}
+.wf_container a img {
+	border: 0;
+}
+.wf_container img {
+	max-width: 100%;
+	height: auto;
+}
+/* GRID SYSTEM */
+.wf_row {
+	display: table;
+	width: 100%;
+}
+.wf_column {
+	display: table-cell;
+	vertical-align: top;
+}
+.wf_column img {
+	max-width: 100%;
+	height: auto;
+}
+.wf_eight {
+	width: 100%;
+}
+.wf_seven {
+	width: 87.5%;
+}
+.wf_six {
+	width: 75%;
+}
+.wf_five {
+	width: 62.5%;
+}
+.wf_four {
+	width: 50%;
+}
+.wf_three {
+	width: 37.5%;
+}
+.wf_two {
+	width: 25%;
+}
+.wf_one {
+	width: 12.5%;
+}
+/* ALIGNMENTS */
+.wf_centered {
+	text-align: center!important;
+}
+.wf_left {
+	text-align: left!important;
+}
+.wf_right {
+	text-align: right!important;
+}
+.wf_centeredOnMobile {
+	text-align: left!important;
+}
+/* HIDE & SHOW */
+.wf_hideOnMobile {
+	display: block;
+}
+.wf_hideColumnOnMobile {
+	display: table-cell;
+}
+.wf_showOnMobile {
+	display: none;
+}
+.wf_showColumnOnMobile {
+	display: none;
+}
+/* MISC */
+.wf_clear {
+	clear: both;
+}
+
+/* MOBILE & SMALL SCREENS */
+@media all and (max-width: 480px) {
+.wf_column {
+	float: left; width: 100%;
+}
+.wf_one. .wf_two, .wf_three, .wf_four, .wf_five, .wf_six, .wf_seven {
+ width: 100%;
+}
+.wf_hideOnMobile {
+	display: none;
+}
+.wf_hideColumnOnMobile {
+	display: none;
+}
+.wf_showOnMobile {
+	display: block;
+}
+.wf_showColumnOnMobile {
+	display: table-cell;;
+}
+.wf_centeredOnMobile {
+	text-align: center!important;
+}
+}
