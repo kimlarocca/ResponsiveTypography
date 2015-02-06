@@ -1,0 +1,76 @@
+.responsiveText {
+	font-size: 16px;
+	font-family: 'oswaldmedium';
+	color: #333; margin:auto;
+	text-transform: uppercase; padding-top:20px;
+}
+h1, h2, h3 {
+	margin: 0;
+	text-align: center;
+	line-height: 100%;
+}
+h1 {
+	font-size: 13em;
+}
+h2 {
+	font-size: 9em;
+}
+h3 {
+	font-size: 4em;
+	padding-bottom:10px
+}
+.purple {
+	color: #4b0082;
+}
+
+/* responsive text */
+@media all and (max-width: 1150px) {
+.responsiveText {
+	font-size: 15px;
+}
+}
+@media all and (max-width: 1050px) {
+.responsiveText {
+	font-size: 14px;
+}
+}
+@media all and (max-width: 950px) {
+.responsiveText {
+	font-size: 13px;
+}
+}
+@media all and (max-width: 850px) {
+.responsiveText {
+	font-size: 12px;
+}
+}
+@media all and (max-width: 750px) {
+.responsiveText {
+	font-size: 11px;
+}
+}
+@media all and (max-width: 650px) {
+.responsiveText {
+	font-size: 10px;
+}
+}
+@media all and (max-width: 550px) {
+.responsiveText {
+	font-size: 9px;
+}
+}
+@media all and (max-width: 475px) {
+.responsiveText {
+	font-size: 8px;
+}
+}
+@media all and (max-width: 425px) {
+.responsiveText {
+	font-size: 7px;
+}
+}
+@media all and (max-width: 400px) {
+.responsiveText {
+	font-size: 6px;
+}
+}

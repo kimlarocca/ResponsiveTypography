@@ -93,7 +93,7 @@
 }
 
 /* MOBILE & SMALL SCREENS */
-@media all and (max-width: 480px) {
+@media all and (max-width: 599px) {
 .wf_column {
 	float: left; width: 100%;
 }

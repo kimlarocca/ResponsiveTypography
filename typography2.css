@@ -1,0 +1,85 @@
+body {
+	background-color:#0f0f0f;
+}
+.wf_container {
+	max-width: 450px;
+	font-size:16px;	
+	font-family: 'oswaldlight';
+	text-transform: uppercase;
+	margin: auto;
+	padding-top:20px;
+	color: #a9a9a9;
+	text-align: right;
+}
+a {
+	color:#fff;
+}
+a:hover {
+	opacity:.7;
+}
+h2 {
+	font-weight: 700;
+	font-size: 9em;
+	line-height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.grey { color:#3e3e3e; }
+
+/* GRID SYSTEM */
+.wf_row {
+	display: table;
+	width: 100%;
+}
+.wf_column {
+	display: table-cell;
+	vertical-align: top;
+}
+.wf_column img {
+	max-width: 100%;
+	height: auto; float:left;
+}
+.wf_seven {
+	width: 90%;
+}
+.wf_one {
+	width: 10%; float:left; min-width: 70px;
+}
+.wf_centered {
+	text-align: center!important;
+}
+
+/* responsive text */
+@media all and (max-width: 699px) {
+.wf_container {
+	font-size:15px;
+}
+}
+@media all and (max-width: 599px) {
+.wf_container {
+	font-size:14px;
+}
+}
+@media all and (max-width: 499px) {
+.wf_container {
+	font-size:13px;
+}
+}
+@media all and (max-width: 449px) {
+.wf_container {
+	font-size:12px;
+}
+}
+@media all and (max-width: 399px) {
+.wf_container {
+	font-size:11px;
+}
+.wf_one {
+	min-width: 50px;
+}
+}
+@media all and (max-width: 320px) {
+.wf_container {
+	font-size:10px;
+}
+}

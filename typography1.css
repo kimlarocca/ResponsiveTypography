@@ -1,6 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:700,300);
-body {
+.responsiveText {
 	font-size:16px;	
+	font-family: 'oswaldlight';
+	max-width: 920px;
+	text-transform: uppercase;
+	margin-top:30px;
 }
 h1, h2, h3 {
 	padding: 0;
@@ -8,18 +11,19 @@ h1, h2, h3 {
 	color: #000;
 }
 h1 {
-	padding: 5px 0 0 10px;
-	line-height: 120%;
-	font-size: 1.75em;
+	margin: 5px 0 0 10px;
+	line-height: 100%;
+	font-size: 1.65em;
 	font-weight: 300;
 }
 h2 {
 	font-weight: 700;
 	font-size: 12.5em;
 	line-height: 92%;
+	font-family: 'oswaldmedium';
 }
 h3 {
-	padding: 5px 10px 0;
+	padding: 0 10px 0;
 	line-height: 130%;
 	font-weight: 300;
 	position: relative;
@@ -30,66 +34,60 @@ h3 strong {
 	margin-bottom: 10px;
 	font-size: 2.0em;
 	line-height: 113%;
-	font-weight: 700;
-}
-.wf_container {
-	max-width: 920px;
-	text-transform: uppercase;
-	font-family: 'Oswald';
+	font-family: 'oswaldmedium';
 }
 .purple { color:#4b0082; }
+.wf_row { margin-top:-10px; } /* overwrite grid, reduce space in between rows */
 
 /* responsive text */
 @media all and (max-width: 919px) {
-body {
+.responsiveText {
 	font-size:15px;
 }
 }
 @media all and (max-width: 819px) {
-body {
+.responsiveText {
 	font-size:14px;
 }
 }
 @media all and (max-width: 769px) {
-body {
+.responsiveText {
 	font-size:13px;
 }
 }
-@media all and (max-width: 739px) {
-body {
+@media all and (max-width: 749px) {
+.responsiveText {
 	font-size:12px;
 }
+.wf_row { margin-top:0; } /* overwrite grid, reduce space in between rows */
 }
 @media all and (max-width: 699px) {
-body {
+.responsiveText {
 	font-size:11px;
 }
 }
 @media all and (max-width: 669px) {
-body {
+.responsiveText {
 	font-size:10px;
 }
-}
 @media all and (max-width: 639px) {
-body {
+.responsiveText {
 	font-size:9px;
 }
 }
+/* mobile only */
 @media all and (max-width: 599px) {
-body {
-	font-size:8px;
-}
-}
-@media all and (max-width: 480px) {
-body {
+.responsiveText {
 	font-size:7px;
 }
-h1 { font-size: 28px; }
+.wf_row { margin-top:-10px; } /* overwrite grid, reduce space in between rows */
+h1 { font-size: 28px; margin:0; }
+h2 { line-height: 100%; }
 h3 strong { font-size: 28px; }
-h3 { font-size: 20px; }
+h3 { font-size: 20px; line-height:normal; }
 }
 @media all and (max-width: 320px) {
-body {
+.responsiveText {
 	font-size:6px;
 }
 }

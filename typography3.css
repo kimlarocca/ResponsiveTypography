@@ -1,0 +1,166 @@
+body {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+.responsiveText {
+	width: 100%;
+	max-width: 1035px;
+	font-size: 16px;
+	margin: auto;
+	color: #676571;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+p {
+	font-size:13px;
+}
+a {
+	color: #d75c7b;
+}
+a:hover {
+	opacity: .7;
+}
+h1, h2 {
+	margin: 0;
+}
+h1 {
+	font-size: 11em;
+	padding: 40px 0;
+	line-height: 60%;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.5em;
+	line-height: 100%;
+	font-weight: normal;
+}
+h3 {
+	text-transform: uppercase;
+}
+.rose {
+	color: #d75c7b;
+}
+/* GRID SYSTEM */
+.wf_row {
+	display: table;
+	width: 100%;
+}
+.wf_column {
+	display: table-cell;
+	vertical-align: top;
+}
+.wf_column img {
+	max-width: 100%;
+	height: auto;
+	float: left;
+}
+.wf_three {
+	width: 33%;
+	padding: 0 15px 0 0;
+}
+.wf_threeCenter {
+	width: 34%;
+	padding: 50px 15px 0 0;
+}
+.wf_leftColumn {
+	max-width: 535px;
+	width: 50%;
+	float: left;
+}
+.wf_rightColumn {
+	max-width: 500px;
+	width: 50%;
+	float: left;
+}
+.wf_right {
+	text-align: right!important;
+}
+.wf_centered {
+	text-align: center!important;
+}
+.wf_clear {
+	clear: both;
+}
+/* responsive text */
+@media all and (max-width: 1199px) {
+.responsiveText {
+	font-size: 15px;
+}
+}
+@media all and (max-width: 1099px) {
+.responsiveText {
+	font-size: 14px;
+}
+}
+@media all and (max-width: 999px) {
+.responsiveText {
+	font-size: 13px;
+}
+}
+@media all and (max-width: 899px) {
+.responsiveText {
+	font-size: 12px;
+}
+}
+@media all and (max-width: 799px) {
+.responsiveText {
+	font-size: 11px;
+}
+}
+@media all and (max-width: 699px) {
+.responsiveText {
+	font-size: 10px;
+}
+@media all and (max-width: 649px) {
+.responsiveText {
+	font-size: 9px;
+}
+@media all and (max-width: 599px) {
+.responsiveText {
+	font-size: 8px;
+}
+@media all and (max-width: 549px) {
+.responsiveText {
+	font-size: 7px;
+}
+/* image is 535px, so i chose that for the mobile breakpoint */
+@media all and (max-width: 535px) {
+.responsiveText {
+	font-size:10px;
+}
+.wf_row {
+	display: inline-block;
+}
+.wf_leftColumn, .wf_rightColumn {
+	width: 100%;
+	clear:both;
+	max-width: 100%;
+}
+.wf_column, .wf_three {
+	display: inline-block;
+	width: 100%;
+	clear:both;
+}
+.wf_three, .wf_threeCenter {	
+	padding:0; clear:both;
+}
+h1 {
+	padding:0;
+	margin-top:-90px;
+}
+h2 {
+	padding:30px 10px 10px 10px; font-size: 2em;
+}
+p {
+	padding:10px; margin: 0;
+}
+}
+@media all and (max-width: 399px) {
+.responsiveText {
+	font-size: 9px;
+}
+@media all and (max-width: 320px) {
+.responsiveText {
+	font-size: 8px;
+}
