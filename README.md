@@ -8,6 +8,6 @@ Simple Example: http://dojo.codenorris.com/k/ResponsiveTypography/typography-sim
 
 Example #1: http://dojo.codenorris.com/k/ResponsiveTypography/typography1.html
 
-Example #1: http://dojo.codenorris.com/k/ResponsiveTypography/typography2.html
+Example #2: http://dojo.codenorris.com/k/ResponsiveTypography/typography2.html
 
 Licensed under the MIT license. (http://opensource.org/licenses/MIT)
